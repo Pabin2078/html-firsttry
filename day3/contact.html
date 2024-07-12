@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact me</title>
+  </head>
+  <body>
+    <div style="display: flex; gap: 25px; justify-content: end">
+      <a href="https://google.com" style="text-decoration: none">Google</a>
+      <a href="contact.html" target="_blank" style="text-decoration: none"
+        >Contact me</a
+      >
+    </div>
+    <hr />
+     <div>
+      <header style="text-align: center">
+        <img
+          src="./download.jpg"
+          alt="image"
+          style="
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+          "
+        />
+         <fieldset> 
+        <legend>submit Your Info</legend> 
+    <form action="submit" method="post" > 
+         
+        Name : <input type="text" id="name" placeholder="Name"> <br><br>
+        Date of Birth : <input type="date" id="DOB" ><br><br>
+        Email : <input type="email" id="email" placeholder="Email"><br> <br>
+        Password : <input type="password" id="password" placeholder="password"><br> <br>
+        Retype password : <input type="password" id="password1" placeholder="passwod"><br><br>
+        Profile Color : <input type="color" id="color"><br><br>
+        Gender : <input type="radio" name="g"> Male 
+                 <input type="radio" name="g">Female<br> <br>
+        Faculty : <input type="checkbox">Science <input type="checkbox">Management<br> <br>
+        Shift : <select> 
+                <option value="">Morning</option> 
+                <option value="">Day</option> 
+               </select><br> <br>
+        Description : <input type="textfield" id="description" placeholder="Description"><br> <br>
+         <br>
+        <input type="button" value="SUBMIT" onclick="validateForm1()"> 
+        <button type="reset">RESET</button> 
+    </form></fieldset>
+        <article>
+           <a href="https://www.instagram.com/your-instagram-handle" target="_blank">
+        <img  src="../images/download.jpg" alt="Instagram">
+    </a>
+    <a href="https://www.facebook.com/your-facebook -handle" target="_blank">
+        <img  src="../images/facebook.png" alt="Facebook">
+    </a>
+    <a href="https://www.twitter.com/your-twitter-handle" target="_blank">
+        <img  src="../images/twitter.png" alt="Twitter">
+    </a>
+    <a href="https://www.youtube.com/your-youtube-handle" target="_blank">
+        <img  src="../images/youtube.png" alt="Youtube">
+    </a>
+        </article>
+           
+        
+  </body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Form</title>
+  </head>
+  <body>
+    <header style="text-align: center">
+      <h1>Login Form</h1>
+    </header>
+    <div
+      style="
+        text-align: center;
+        margin-top: 10px;
+
+        width: auto;
+      "
+    >
+      <form action="submit" method="post">
+        Name : <input type="text" id="name" placeholder="Name" required />
+        <br /><br />
+        Date of Birth : <input type="date" id="DOB" /><br /><br />
+        Email :
+        <input type="email" id="email" placeholder="Email" required /><br />
+        <br />
+        Password :
+        <input
+          type="password"
+          id="password"
+          placeholder="password"
+          required
+        /><br />
+        <br />
+        Retype password :
+        <input
+          type="password"
+          id="password1"
+          placeholder="passwod"
+          required
+        /><br /><br />
+        Profile Color : <input type="color" id="color" /><br /><br />
+        Gender : <input type="radio" name="g" /> Male
+        <input type="radio" name="g" />Female<br />
+        <br />
+        Faculty : <input type="checkbox" />Science
+        <input type="checkbox" />Management<br />
+        <br />
+        Shift :
+        <select>
+          <option value="">Morning</option>
+          <option value="">Day</option></select
+        ><br />
+        <br />
+        Description :
+        <input
+          type="textfield"
+          id="description"
+          placeholder="Description"
+        /><br />
+        <br />
+
+        <input type="submit" />
+        <button type="reset">RESET</button>
+      </form>
+    </div>
+  </body>
+</html>

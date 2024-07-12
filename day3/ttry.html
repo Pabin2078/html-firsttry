@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    /* Optional: Add styling for your sections */
+    body {
+        scroll-snap-type: y mandatory; /* Enable vertical scroll snapping */
+        overflow-y: scroll; /* Enable vertical scrolling */
+        height: 100vh; /* Set height to full viewport height */
+        margin: 0; /* Remove default margin */
+        font-family: Arial, sans-serif; /* Optional: Set font */
+    }
+    
+    section {
+        scroll-snap-align: start; /* Ensure each section snaps to the top */
+        height: 100vh; /* Set each section height to full viewport height */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 2rem; /* Optional: Adjust font size */
+    }
+    
+    #home {
+        background-color: #f0f0f0;
+    }
+    
+    #about {
+        background-color: #e0e0e0;
+    }
+    
+    #contact {
+        background-color: #d0d0d0;
+    }
+</style>
+</head>
+<body>
+
+<!-- Navigation bar with Contact Me link -->
+<nav>
+    <ul>
+        <li><a href="#contact">Contact Me</a></li>
+        <!-- Replace '#contact' with the id of your contact section -->
+    </ul>
+</nav>
+
+<!-- Main content sections -->
+<section id="home">
+    <h2>Home Section</h2>
+    <p>This is the home section.</p>
+</section>
+
+<section id="about">
+    <h2>About Section</h2>
+    <p>This is the about section.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact Me Section</h2>
+    <p>This is the contact me section.</p>
+</section>
+
+<!-- Optional: Footer or additional content -->
+
+</body>
+</html>
